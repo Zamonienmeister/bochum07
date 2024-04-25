@@ -1,2 +1,2 @@
 
-![logo](logo.png)
+[![logo](logo.png)](http://bochum07.de)
