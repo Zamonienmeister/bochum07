@@ -1,2 +1,2 @@
-# bochum07
 
+![logo](logo.png)
