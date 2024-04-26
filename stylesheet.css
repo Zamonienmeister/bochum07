@@ -3,7 +3,7 @@ body, div {
   margin-right: auto;
 }
 
-img {
+img, .container {
   display: block;
   margin-left: auto;
   margin-right: auto;
