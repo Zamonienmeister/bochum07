@@ -30,14 +30,16 @@ p {
   padding-left: 10px;
 }
 
-.disclaimer {
+a {
+  color: rgb(255, 216, 8);
+}
+
+a.disclaimer {
   font-size: 10px;
+  color: rgb(225, 0, 223);
+  text-decoration: none;
 }
 
 h2 {
   text-align: center;
-}
-
-a {
-  color: rgb(255, 216, 8);
 }
