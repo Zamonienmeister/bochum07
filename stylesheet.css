@@ -21,6 +21,16 @@ img {
   height: auto;
 }
 
+img.cover {
+  display: block;
+  max-width: 300px;
+}
+
+img.merch {
+  display: block;
+  max-width: 300px;
+}
+
 p {
   display: block;
   margin-left: auto;
@@ -30,8 +40,16 @@ p {
   padding-left: 10px;
 }
 
+.top {
+  padding-top: 20px;
+}
+
 a {
   color: rgb(255, 216, 8);
+}
+
+a.link {
+  color: rgb(225, 0, 223);
 }
 
 a.disclaimer {
@@ -40,6 +58,16 @@ a.disclaimer {
   text-decoration: none;
 }
 
-h2 {
+h2, h3, h4 {
   text-align: center;
+}
+
+audio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactAddress:after {
+  content: attr(data-name) "@" attr(data-domainfirst) "-" attr(data-domainlast) "." attr(data-tld);
 }
